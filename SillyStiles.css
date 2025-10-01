@@ -1,0 +1,67 @@
+/* Teto page */
+body{
+.Glow_Teto{
+  margin-left: 710px;
+  }
+.Teto_button{
+  margin-left: 500px;
+  background-color: rgb(255, 54, 54);
+  padding: 7px;
+  color: rgb(26, 21, 21);
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  }
+.Teto_button:hover{
+  background-color: aquamarine;
+  color: black;
+  }
+
+.Teto_bird_button{
+  margin-left: 350;
+  background-color: rgb(255, 197, 39);
+  padding: 7px;
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  }
+.Teto_bird_button:hover{
+  background-color: white;
+  color:yellow;
+  border-radius: 100px;
+  }
+  
+.Title_T{
+  text-align: center;
+  font-family: cursive;
+  text-decoration: underline overline darkred;
+  }
+.Text{
+  font-family: sans;
+  font-weight: bold;
+  color: rgb(72, 241, 241);
+  }
+
+.Jazz_button{
+  margin-left: 125px;
+  background-color: rgb(255, 255, 255);
+  padding: 7px;
+  color: rgb(66, 157, 241);
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  }
+.Jazz_button:hover{
+  background-color: rgb(66, 157, 241);
+  color: white;
+  }
+}
+/* Miku Page */
+body{
+.Title_M{
+  text-align: center;
+  font-family: cursive;
+  text-decoration: underline overline rgb(8, 100, 133);
+}
+}
