@@ -1,8 +1,15 @@
+/*Usay Page*/
+body{
+.usay_tab{
+  height: 200;
+  width: 200;
+}
+}
 /* Teto page */
 body{
 .Glow_Teto{
-  margin-left: 710px;
-  }
+  margin-left: 750px;
+}
 .Teto_button{
   margin-left: 500px;
   background-color: rgb(255, 54, 54);
@@ -65,15 +72,46 @@ body{
   text-decoration: underline overline rgb(8, 100, 133);
 }
 }
-/*Usay Page*/
-body{
-.usay_tab{
-  height: 200;
-  width: 200;
-  
+/* Spining Miku page*/
+.elon{
+  position: relative;
+  bottom: 700px;
+  background:url('images/Elon.webp') no-repeat;
+  animation: backspin 4s linear infinite ;
 }
+.spin_miku2{
+  background:url('images/Cute_miku2.png') no-repeat;
+  animation: miku_spin 1s linear infinite;
+}
+.spin_miku{
+  height: 390px;
+  width: 390px;
+  position: relative;
+  left: 730px;
+  top: 200px;
+  background:url('images/Cute_miku.png') no-repeat;
+  animation: miku_spin 1s linear infinite;
+}
+  
+@keyframes miku_spin{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform:rotate(360deg);
+  }
+}
+
+@keyframes backspin {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(-360deg);
+  }  
 }
 /*index page*/
 body{
 
+  transform: matrix();
 }
