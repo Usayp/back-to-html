@@ -77,11 +77,11 @@ body{
   position: relative;
   bottom: 700px;
   background:url('images/Elon.webp') no-repeat;
-  animation: backspin 4s linear infinite ;
+  animation: backspin .00001s linear infinite ;
 }
 .spin_miku2{
   background:url('images/Cute_miku2.png') no-repeat;
-  animation: miku_spin 1s linear infinite;
+  animation: miku_spin2 1s linear infinite;
 }
 .spin_miku{
   height: 390px;
@@ -90,15 +90,36 @@ body{
   left: 730px;
   top: 200px;
   background:url('images/Cute_miku.png') no-repeat;
-  animation: miku_spin 1s linear infinite;
+  animation: miku_spin1 1s linear infinite;
 }
-  
-@keyframes miku_spin{
+
+.fivehead{
+  height: 50%;
+  width: 50%;
+  position: relative;
+  left: 650px;
+  bottom: 700px;
+  background:url('images/Five_headed_dragon.webp') no-repeat;
+  animation: dragspin 5s linear infinite ;
+}
+
+@keyframes miku_spin1{
   from{
     transform: rotate(0deg);
   }
   to{
-    transform:rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes miku_spin2{
+  from{
+    transform: rotate(-1deg);
+    transform: rotateY(180deg);
+  }
+  to{
+    transform: rotate(360deg);
+    transform: rotateY(-180deg);
   }
 }
 
@@ -108,7 +129,16 @@ body{
   }
   to{
     transform: rotate(-360deg);
-  }  
+  }
+}
+
+@keyframes dragspin {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
 }
 /*index page*/
 body{
